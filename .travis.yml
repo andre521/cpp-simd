@@ -14,5 +14,7 @@ addons:
       - make
       - cmake
 
+install:
+  - if [ "$CXX" = "g++" ]; then export CXX="g++-4.8"; fi
 before_script: git submodule update --init makeci
 script: make ci
