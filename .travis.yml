@@ -1,9 +1,9 @@
-sudo: false
 language: cpp
 compiler:
     - gcc
     - clang
 
-install: make cmake g++-4.8 clang
+install:
+    - sudo apt-get install make cmake g++-4.8 clang
 before_script: git submodule update --init makeci
 script: make ci
