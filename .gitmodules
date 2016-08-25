@@ -1,0 +1,6 @@
+[submodule "makeci"]
+	path = makeci
+	url = https://github.com/joelgallant/makeci.git
+[submodule "test/gtest"]
+	path = test/gtest
+	url = https://github.com/google/googletest.git
