@@ -1,5 +1,7 @@
 # C++ SIMD
-Practical header only, oop way to use simd extensions. It won't be the absolute
+[![Build Status](https://travis-ci.org/joelgallant/cpp-simd.svg?branch=master)](https://travis-ci.org/joelgallant/cpp-simd)
+
+Practical, header only, oop way to use simd extensions. It won't be the absolute
 fastest (although best attempts are made at inlining) way to do everything, but
 if you want to take advantage of simd without looking up crazy intrinsic names
 and keeping track of registers and cache, it's a step forward.
